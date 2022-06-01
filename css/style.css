@@ -1,0 +1,177 @@
+.header{
+	position: relative;
+	top: -530px;
+	left: 50px;
+	opacity: 1;
+	color: white;
+	width: 400px;
+}
+
+.header h1{
+	font-size: 60px;
+}
+
+.container > p{
+	font-family: cursive;
+	font-size: 25px;
+	margin-top: -80px;
+}
+
+.rm{
+    font-weight: bolder;
+	color: skyblue;
+	font-size: 25px;
+	text-shadow: none;
+	width: 200px;
+	height: 50px;
+    cursor: pointer;
+
+
+	/*font-weight: bolder;*/
+}
+
+.rm:hover{
+   
+
+    display: inline-block;
+    width: 150px;
+    border-bottom: 3px solid blue;
+}
+
+.nav-link{
+	font-size: 23px;
+	font-weight: 400px;
+}
+
+.footer-links a{
+	text-decoration: none;
+	color: white;
+}
+
+.footer-top{
+	padding: 20px 0;
+}
+
+.navbar{
+    z-index: 1;
+}
+
+body{
+    background: #f2f5fc;
+    font-family: "Gill Sans", sans-serif;
+}
+
+.card{
+    border:none;
+    position:relative;
+    overflow:hidden;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.card:before{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:skyblue;
+    transform:scaleY(1);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:after{
+    
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:4px;
+    height:100%;
+    background-color:blue;
+    transform:scaleY(0);
+    transition:all 0.5s;
+    transform-origin: bottom
+}
+
+.card:hover::after{
+    transform:scaleY(1);
+}
+
+
+.fonts{
+    font-size:18px;
+    font-family: cursive;
+}
+
+.font{
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bolder;
+}
+
+.social-list{
+    display:flex;
+    list-style:none;
+    justify-content:center;
+    padding:0;
+}
+
+.social-list li{
+    padding:10px;
+    color:blue;
+    font-size:19px;
+}
+
+
+.buttons button:nth-child(1){
+       border:1px solid blue !important;
+       color:blue;
+       height:40px;
+       font-family: cursive;
+
+}
+
+.buttons button:nth-child(1):hover{
+       border:1px solid blue !important;
+       color:#fff;
+       height:40px;
+       background-color:blue;
+}
+
+.buttons button:nth-child(2){
+       border:1px solid blue !important;
+       background-color:blue;
+       color:#fff;
+       height:40px;
+       font-family: cursive;
+
+}
+
+input, textarea {
+    --bs-bg-opacity: 1;
+    /*background-color: rgba(0, 0, 0, 0.01) !important;*/
+
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.niomic{
+    text-decoration: none;
+    color: white;
+}
+
+.niomic2{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+}
+
+.niomic2:hover{
+    color: skyblue;
+}
